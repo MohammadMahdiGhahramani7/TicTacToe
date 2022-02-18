@@ -13,7 +13,6 @@ function definePlaceValues(){
 
 	finishState = false;
 	colorSelect = false;
-	userBeepOff = false;
 
 	initialBodyScript = document.body.innerHTML;
 }
@@ -338,8 +337,6 @@ function finishGame(){
 		document.getElementById(hidden[hE]).value = 1;
 
 	document.getElementById("hidden1").value = 1;
-
-	userBeepOff = true;
 }
 
 function restartGame(){
