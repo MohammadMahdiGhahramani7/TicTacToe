@@ -1,5 +1,5 @@
 # TicTacToe
-TicTacToe Game Using HTML/JS/CSS
+TicTacToe Game Using HTML/JS/CSS. (Recommended browser: Chrome)
 
 ![game template](example1.png)
 
