@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="ticTacToe.css">
+
+	<title></title>
+</head>
+<body onload="definePlaceValues()">
+
+	<center>
+
+		<br> <br>
+
+		ID (max of 5 chars): <input type="text" id="username" name="yourname" value="You">
+
+		<input type="button" id="namebtn" value="Enter" onclick="setName()"> 
+
+		<h4>Selecet your color (Green plays first)</h4>
+
+		<canvas id="greenPlayer" onclick="setPlayers1()"></canvas>
+
+		<canvas id="redPlayer" onclick="setPlayers2()"></canvas>
+
+		<br> <br>
+
+		<canvas id="place1" class="canvas" onclick="firstPlace()"></canvas>
+
+		<canvas id="place2" class="canvas" onclick="secondPlace()"></canvas>
+
+		<canvas id="place3" class="canvas" onclick="thirdPlace()"></canvas>
+
+		<br>
+
+		<canvas id="place4" class="canvas" onclick="fourthPlace()"></canvas>
+
+		<canvas id="place5" class="canvas" onclick="fifthPlace()"></canvas>
+
+		<canvas id="place6" class="canvas" onclick="sixthPlace()"></canvas>
+
+		<br>
+
+		<canvas id="place7" class="canvas" onclick="seventhPlace()"></canvas>
+
+		<canvas id="place8" class="canvas" onclick="eighthPlace()"></canvas>
+
+		<canvas id="place9" class="canvas" onclick="ninthPlace()"></canvas>
+
+		<div id="div"></div>
+
+
+		<input type="hidden" id="hidden1" value=0>
+
+		<input type="hidden" id="hiddenFirst" value=0>
+
+		<input type="hidden" id="hiddenSecond" value=0>
+
+		<input type="hidden" id="hiddenThird" value=0>
+
+		<input type="hidden" id="hiddenFourth" value=0>
+
+		<input type="hidden" id="hiddenFifth" value=0>
+
+		<input type="hidden" id="hiddenSixth" value=0>
+
+		<input type="hidden" id="hiddenSeventh" value=0>
+
+		<input type="hidden" id="hiddenEighth" value=0>
+
+		<input type="hidden" id="hiddenNinth" value=0>
+
+		<audio src="userBeep.wav" autostart="false" width="0" height="0" id="beepUser" enablejavascript="true"></audio>
+
+		<audio src="loseBeep.wav" autostart="false" width="0" height="0" id="beepLose" enablejavascript="true"></audio>
+
+		<audio src="winBeep.mp3" autostart="false" width="0" height="0" id="beepWin" enablejavascript="true"></audio>
+
+	</center>
+
+<script type="text/javascript" src="ticTacToe.js"></script>
+
+</body>
+</html>
